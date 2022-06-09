@@ -1,0 +1,17 @@
+#calculadora IMC 
+#IMC = Peso / (Altura x  Altura)
+
+peso = int(input("Ingrese su peso en kg"))
+altur = int(input("Ingr ese su altura en cm: "))
+
+altura = altura / 100
+imc =  peso / (altura * altura)
+
+if imc < 20:
+   print("Estado de delgadez")
+if imc >= 20 and imc <= 26:
+   print("Peso normal")
+if imc >= 26 and imc < 30:
+   print("Estado de sobrepeso")
+if imc >= 30:
+   print("Estado de obesidad")
